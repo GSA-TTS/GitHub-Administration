@@ -4,7 +4,6 @@ description: Github Team Request
 title: team
 labels: "g: help, i: github-team"
 assignees: "@tts-admins"
-
 ---
 
 - [ ] analytics.usa.gov
