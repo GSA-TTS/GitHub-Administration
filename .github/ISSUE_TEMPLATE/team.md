@@ -3,7 +3,7 @@ name: github-team
 description: Github Team Request
 title: team
 labels: "g: help, i: github-team"
-assignees: "@tts-admins"
+assignees: "tts-admins, jjediny"
 ---
 
 - [ ] analytics.usa.gov
