@@ -1,0 +1,50 @@
+name: team
+description: Github Team
+title: "[Team]: "
+labels: ["team-request", "triage"]
+#projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - tts-admins
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Description
+  - type: input
+    id: contact
+    attributes:
+      label: Email
+      description: GSA Email
+      placeholder: email@gsa.gov
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: What Program/System is this for?
+      multiple: true
+      options:
+        - analytics.usa.gov
+        - Api.Data.gov
+        - Challenge.gov
+        - Data.gov
+        - Federal Audit Clearinghouse (FAC)
+        - Identity Verification API (IDVA)
+        - Interagency Suspension and Debarment Committee (ISDC)
+        - Made in America (MiAO)
+        - Search.gov
+        - Site Scanner
+        - System of Records Notice (SORN) Dashboard
+        - Tock
+        - Touchpoints (TP)
+        - TTS Pages
+        - US Notify
+        - USA.GOV
+        - LOGIN.GOV
+        - tts.gsa.gov
+  - type: textarea
+    id: maintainers
+    attributes:
+      label: Relevant log output
+      description: Please list the GitHub Users that will be team maintainers
+      render: shell
