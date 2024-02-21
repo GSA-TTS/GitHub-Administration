@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GSA Github Support
+    url: https://github.com/GSA/GitHub-Administration
+    about: GSA Github Support
+  - name: TTS Github Support
+    url: https://github.com/GSA-TTS/GitHub-Administration
+    about: TTS Github Support
+  - name: GitHub Security Bug Bounty
+    url: https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/
+    about: Please report security vulnerabilities here.
