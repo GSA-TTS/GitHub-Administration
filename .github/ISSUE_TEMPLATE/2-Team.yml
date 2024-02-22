@@ -12,24 +12,24 @@ body:
       label: GSA System
       multiple: false
       options:
-        - analytics.usa.gov
-        - Api.Data.gov
-        - Challenge.gov
-        - Data.gov
-        - Federal Audit Clearinghouse (FAC)
-        - Identity Verification API (IDVA)
-        - Interagency Suspension and Debarment Committee (ISDC)
-        - Made in America (MiAO)
-        - Search.gov
-        - Site Scanner
-        - System of Records Notice (SORN) Dashboard
-        - Tock
-        - Touchpoints (TP)
-        - TTS Pages
-        - US Notify
-        - USA.GOV
-        - LOGIN.GOV
-        - tts.gsa.gov
+        - "analytics.usa.gov"
+        - "Api.Data.gov"
+        - "Challenge.gov"
+        - "Data.gov"
+        - "Federal Audit Clearinghouse FAC"
+        - "Identity Verification API IDVA"
+        - "Interagency Suspension and Debarment Committee ISDC"
+        - "Made in America MiAO"
+        - "Search.gov"
+        - "Site Scanner"
+        - "System of Records Notice SORN Dashboard"
+        - "Tock"
+        - "Touchpoints"
+        - "TTS Pages"
+        - "US Notify"
+        - "USA.GOV"
+        - "LOGIN.GOV"
+        - "tts.gsa.gov"
   - type: textarea
     id: maintainers
     attributes:
