@@ -38,12 +38,11 @@ body:
     attributes:
       label: maintainers
       description: comma-separated list of github users
-      render: shell
   - type: checkboxes
     id: terms
     attributes:
       label: attestation
-      description: By submitting this issue, you agree to ...
+      description: The System Owner is aware of and approves of this team.
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: The System Owner is aware of and approves of this team.
           required: true
