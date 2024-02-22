@@ -1,0 +1,40 @@
+name: Github User Request
+description: Github User Request
+title: "Github User Request - email@gsa.gov"
+labels: ["user", "request"]
+#projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - tts-admins
+body:
+  - type: input
+    id: gsa-email
+    attributes:
+      label: GSA Email
+      description: GSA Email
+      placeholder: email@gsa.gov
+    validations:
+      required: true
+  - type: input
+    id: sponsor-email
+    attributes:
+      label: Sponsor Email
+      description: Supervisor/Sponsor/COR Email
+      placeholder: email@gsa.gov
+    validations:
+      required: true
+  - type: dropdown
+    id: gfe
+    attributes:
+      label: Government Furnished Equiptment (GFE) Computer?
+      multiple: true
+      options:
+        - Windows
+        - Mac
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/GSA-TTS/GitHub-Administration)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
