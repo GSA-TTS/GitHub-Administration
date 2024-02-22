@@ -4,7 +4,7 @@ title: "team-name"
 labels: ["team", "request"]
 #projects: ["octo-org/1", "octo-org/44"]
 assignees:
-  - jjediny
+  - @GSA-TTS/tts-admins
 body:
   - type: dropdown
     attributes:
@@ -12,24 +12,24 @@ body:
       description: System/Program?
       multiple: false
       options:
-        - "analytics.usa.gov"
-        - "Api.Data.gov"
-        - "Challenge.gov"
-        - "Data.gov"
-        - "Federal Audit Clearinghouse FAC"
-        - "Identity Verification API IDVA"
-        - "Interagency Suspension and Debarment Committee ISDC"
-        - "Made in America MiAO"
-        - "Search.gov"
-        - "Site Scanner"
-        - "System of Records Notice SORN Dashboard"
-        - "Tock"
-        - "Touchpoints"
-        - "TTS Pages"
-        - "US Notify"
-        - "USA.GOV"
-        - "LOGIN.GOV"
-        - "tts.gsa.gov"
+        - *.tts.gsa.gov
+        - analytics.usa.gov
+        - Api.Data.gov
+        - Challenge.gov
+        - Data.gov
+        - Federal Audit Clearinghouse FAC
+        - Identity Verification API IDVA
+        - Interagency Suspension and Debarment Committee ISDC
+        - Made in America MiAO
+        - Search.gov
+        - Site Scanner
+        - System of Records Notice SORN Dashboard
+        - Tock
+        - Touchpoints
+        - TTS Pages
+        - US Notify
+        - USA.GOV
+        - LOGIN.GOV
       default: 0
     validations:
       required: true  
@@ -37,7 +37,13 @@ body:
     id: maintainers
     attributes:
       label: maintainers
-      description: Please list the GitHub Users that will be team maintainers  
-  - type: markdown
+      description: comma-separated list of github users
+      render: shell
+  - type: checkboxes
+    id: terms
     attributes:
-    value: "Copy/Paste Issue link to Slack #admins-github"    
+      label: attestation
+      description: By submitting this issue, you agree to ...
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
