@@ -4,7 +4,7 @@ title: "team-name"
 labels: ["team", "request"]
 #projects: ["octo-org/1", "octo-org/44"]
 assignees:
-  - @GSA-TTS/tts-admins
+  - "@GSA-TTS/tts-admins"
 body:
   - type: dropdown
     attributes:
@@ -12,7 +12,7 @@ body:
       description: System/Program?
       multiple: false
       options:
-        - *.tts.gsa.gov
+        - "*.tts.gsa.gov"
         - analytics.usa.gov
         - Api.Data.gov
         - Challenge.gov
