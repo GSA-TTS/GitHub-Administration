@@ -4,7 +4,7 @@ title: "team-name"
 labels: ["team", "request"]
 #projects: ["octo-org/1", "octo-org/44"]
 assignees:
-  - @tts-admins
+  - jjediny
 body:
   - type: dropdown
     id: system
