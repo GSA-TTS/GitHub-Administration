@@ -43,7 +43,7 @@ body:
       label: Concurrence
       description: Approval
       options:
-        - label: I attest the System Owner for the selected GSA System selected above is aware and approves this team
+        - label: "I attest the System Owner for the selected GSA System selected above is aware and approves this team"
           required: true    
   - type: markdown
     attributes:
