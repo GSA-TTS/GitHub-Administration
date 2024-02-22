@@ -1,28 +1,16 @@
-name: team
+name: Team Request
 description: Github Team
-title: "[Team]: "
-labels: ["team-request", "triage"]
+title: "team-name"
+labels: ["team", "request"]
 #projects: ["octo-org/1", "octo-org/44"]
 assignees:
-  - tts-admins
+  - @tts-admins
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Description
-  - type: input
-    id: contact
-    attributes:
-      label: Email
-      description: GSA Email
-      placeholder: email@gsa.gov
-    validations:
-      required: true
   - type: dropdown
     id: system
     attributes:
-      label: What Program/System is this for?
-      multiple: true
+      label: GSA System
+      multiple: false
       options:
         - analytics.usa.gov
         - Api.Data.gov
@@ -45,6 +33,16 @@ body:
   - type: textarea
     id: maintainers
     attributes:
-      label: Relevant log output
+      label: maintainers
       description: Please list the GitHub Users that will be team maintainers
-      render: shell
+      render: CSV
+  - type: checkboxes
+    attributes:
+      label: Concurrence
+      description: I attest the System Owner for the selected GSA System selected above is aware and approves this team
+      options:
+      - label: I attest the System Owner for the selected GSA System selected above is aware and approves this team
+        required: true    
+  - type: markdown
+    attributes:
+    value: "Copy/Paste Issue link to Slack #admins-github"    
