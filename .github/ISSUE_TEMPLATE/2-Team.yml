@@ -37,12 +37,12 @@ body:
     id: users-maintainers
     attributes:
       label: users-maintainers
-      description: comma-separated list of github users - team maintainers
+      description: comma-separated list of github users as team maintainers
   - type: textarea
     id: users-members
     attributes:
       label: users-members
-      description: comma-separated list of github users - team members      
+      description: comma-separated list of github users as team members      
   - type: textarea
     id: repos-admin
     attributes:
