@@ -47,22 +47,22 @@ body:
     id: repos-admin
     attributes:
       label: repos-admin
-      description: repos this team should have `admin` permissions to
+      description: repos this team should have admin permissions to
   - type: textarea
     id: repos-maintain
     attributes:
       label: repos-maintain
-      description: repos this team should have `maintain` permissions to
+      description: repos this team should have maintain permissions to
    - type: textarea
     id: repos-write
     attributes:
       label: repos-write
-      description: repos this team should have `write` permissions to
+      description: repos this team should have write permissions to
    - type: textarea
     id: repos-read
     attributes:
       label: repos-read
-      description: repos this team should have `read` permissions to          
+      description: repos this team should have read permissions to          
   - type: checkboxes
     id: terms
     attributes:
