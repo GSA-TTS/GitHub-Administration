@@ -1,6 +1,6 @@
 name: User Request
-description: Github User Request
-title: "Github User Request - email@gsa.gov"
+description: User Request
+title: "github-user"
 labels: ["user", "request"]
 #projects: ["octo-org/1", "octo-org/44"]
 assignees:
