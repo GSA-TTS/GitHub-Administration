@@ -53,16 +53,16 @@ body:
     attributes:
       label: repos-maintain
       description: repos this team should have maintain permissions to
-   - type: textarea
-     id: repos-write
-     attributes:
-       label: repos-write
-       description: repos this team should have write permissions to
-   - type: textarea
-     id: repos-read
-     attributes:
-       label: repos-read
-       description: repos this team should have read permissions to          
+  - type: textarea
+    id: repos-write
+    attributes:
+      label: repos-write
+      description: repos this team should have write permissions to
+  - type: textarea
+    id: repos-read
+    attributes:
+      label: repos-read
+      description: repos this team should have read permissions to          
   - type: checkboxes
     id: terms
     attributes:
