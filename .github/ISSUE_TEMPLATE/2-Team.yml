@@ -34,34 +34,34 @@ body:
     validations:
       required: true  
   - type: textarea
-    id: users.maintainers
+    id: users-maintainers
     attributes:
-      label: users.maintainers
+      label: users-maintainers
       description: comma-separated list of github users as team maintainers
   - type: textarea
-    id: users.members
+    id: users-members
     attributes:
-      label: users.members
+      label: users-members
       description: comma-separated list of github users as team members      
   - type: textarea
-    id: repos.admin
+    id: repos-admin
     attributes:
-      label: repos.admin
+      label: repos-admin
       description: repos this team should have admin permissions to
   - type: textarea
-      id: repos.maintain
+      id: repos-maintain
       attributes:
-        label: repos.maintain
+        label: repos-maintain
         description: repos this team should have maintain permissions to
    - type: textarea
-      id: repos.write
+      id: repos-write
       attributes:
-        label: repos.write
+        label: repos-write
         description: repos this team should have write permissions to
    - type: textarea
-      id: repos.read
+      id: repos.-read
       attributes:
-        label: repos.read
+        label: repos-read
         description: repos this team should have read permissions to          
   - type: checkboxes
     id: terms
