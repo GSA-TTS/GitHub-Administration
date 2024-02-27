@@ -22,19 +22,11 @@ body:
       placeholder: email@gsa.gov
     validations:
       required: true
-  - type: dropdown
-    id: gfe
-    attributes:
-      label: Government Furnished Equiptment (GFE) Computer?
-      multiple: true
-      options:
-        - Windows
-        - Mac
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/GSA-TTS/GitHub-Administration)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://handbook.tts.gsa.gov/about-us/code-of-conduct/)
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I agree to follow this [Code of Conduct](https://handbook.tts.gsa.gov/about-us/code-of-conduct/)
           required: true
