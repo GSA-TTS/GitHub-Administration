@@ -71,3 +71,9 @@ body:
       options:
         - label: The System Owner is aware of and approves of this team.
           required: true
+  - type: input
+    id: sponsor-email
+    attributes:
+      label: Sponsor Email
+      description: Sponsor can be a System Owner/Supervisor/Sponsor/COR/etc
+      placeholder: email@gsa.gov
